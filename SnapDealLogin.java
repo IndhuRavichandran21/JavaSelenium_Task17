@@ -28,7 +28,7 @@ public class SnapDealLogin {
 		driver.switchTo().frame(frameElement); //switch to iframe
 		Thread.sleep(3000);
 		
-		driver.findElement(By.id("userName")).sendKeys("indhuravi21@gmail.com"); //sending the value to email id field
+		driver.findElement(By.id("userName")).sendKeys("testuser@gmail.com"); //sending the value to email id field
 		driver.findElement(By.xpath("//div[@class='userAuth-card']//button[@id='checkUser']")).click(); // click continue button
 		Thread.sleep(3000); //wait time
 
